@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../../Tpsit"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../OliInfo"
+		},
+		{
+			"path": "../../SiR"
+		},
+		{
+			"name": "CTF",
+			"path": "../../CTF"
+		}
+	],
+	"settings": {}
+}
