@@ -15,7 +15,7 @@ while True:
     print(nums)
     buttons = []
     line = r.recvline().decode().strip()
-    while line != "":
+    while line != "":ww
         buttons.append(line.split())
         line = r.recvline().decode().strip()
     
