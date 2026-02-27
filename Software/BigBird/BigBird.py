@@ -1,6 +1,6 @@
 from pwn import *
 
-exe = context.binary = ELF("bigbird")
+exe = context.binary = ELF("Software/BigBird/bigbird")
 remotehost = ("bigbird.challs.olicyber.it", 12006)
 
 r = remote(*remotehost) if args.REMOTE else process([exe.path])
